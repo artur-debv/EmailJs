@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Email</title>
+    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/franken-ui-releases@0.0.13/dist/default.min.css" />
+</head>
+
+<body>
+
+
+    <!--Form EmailJs-->
+    <form class="uk-form-danger" id="contact-form">
+        <div class="uk-alert" uk-alert>
+            <a href class="uk-alert-close"></a>
+          </div>
+        <div class="inputBox">
+            
+            <label for="email">Nome</label>
+            <input class="uk-input" type="text" name="from_name">
+        </div>
+        <div class="inputBox">
+            
+            <label for="email">Email</label>
+            <input class="uk-input" type="email" name="from_email">
+        </div>
+        <div class="inputBox">
+            <label for="message">Mensagem</label>
+            <textarea class="uk-textarea" name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="uk-button uk-button-primary" >Enviar</button>
+    </form>
+
+    <!--Import Scripts-->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="Js/ConfigEmail.js"></script>
+    <script src="/Js/InitEmail.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>

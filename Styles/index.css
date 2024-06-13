@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f8f8;
+}   
+
+.inputBox{
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+}
+
+button{
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+textarea{
+    resize: none;
+}
+
+
