@@ -8,12 +8,6 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     };
 
 
-    if (this.from_name.value === '' || this.from_email.value === '' || this.message.value === '') {
-        alert('Por favor, preencha todos os campos.');
-        return;
-    }
-
-
     if (templateParams.from_name === '' || templateParams.from_email === '' || templateParams.message === '') {
         alert('Por favor, preencha todos os campos.');
         return;
